@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--
+/*
+** FrogyFurnetal add intergers Animation cornerbutton radio
+*/
+-->
+    <integer name="cornerbutton_showduration">300</integer>
+    <integer name="cornerbutton_hideduration">300</integer>
+</resources>

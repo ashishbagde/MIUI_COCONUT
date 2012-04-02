@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--
+/*
+** FrogyFurnetal add public ID cornerbutton radio.
+** Ganti XXX dengan id selanjutnya, contoh: [1-9] dan [a-f]
+**    <public type="drawable" name="screen_background_holo_dark" id="0x010805ee" />
+**    <public type="drawable" name="button_corner_bottomleft" id="0x010805ef" />
+**    next id="0x010805f1"
+**    next id="0x010805f2"
+** Cari sesuai dengan type, kalau dimen urutkan dengan dimen, drawable dengan drawable dst.
+** Tambahkan manual atau apkmanager akan menambahkannya secara otomatis ketika di compile.
+*/
+-->
+    <public type="dimen" name="cornerbutton_maxwidth" id="0x01050XXX" />
+    <public type="dimen" name="cornerbutton_maxheight" id="0x01050XXX" />
+    <public type="dimen" name="cornerbutton_fixedpadx" id="0x01050XXX" />
+    <public type="dimen" name="cornerbutton_fixedpady" id="0x01050XXX" />
+    <public type="drawable" name="button_corner_bottomleft" id="0x01080XXX" />
+    <public type="drawable" name="button_corner_bottomright" id="0x01080XXX" />
+    <public type="drawable" name="button_corner_topleft" id="0x01080XXX" />
+    <public type="drawable" name="button_corner_topright" id="0x01080XXX" />
+    <public type="integer" name="cornerbutton_showduration" id="0x010e0XXX" />
+    <public type="integer" name="cornerbutton_hideduration" id="0x010e0XXX" />
+</resources>

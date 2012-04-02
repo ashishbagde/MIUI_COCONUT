@@ -1,0 +1,23 @@
+# xLOUD
+ro.semc.xloud.supported=true
+
+# Digital rights management
+drm.service.enabled=true
+ro.drm.active.num=4
+ro.drm.active.0=semc,1
+ro.drm.active.1=cmla,0
+ro.drm.active.2=viaccess,0
+ro.drm.active.3=marlin,1
+
+# RIL
+ro.telephony.call_ring.multiple=false
+
+rild.libpath=/system/lib/libril-qc-1.so
+rild.libargs=-d /dev/smd0
+
+ro.ril.hsxpa=1
+ro.ril.gprsclass=10
+ro.ril.def.agps.mode=2
+ro.ril.def.agps.feature=1
+ro.telephony.default_network=0
+ro.telephony.ril_class=SemcRIL
