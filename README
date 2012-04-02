@@ -1,0 +1,116 @@
+MIUI
+# system miui
+/system/bin/installd
+/system/lib/libandroid_runtime.so
+/system/lib/libskia.so
+/system/lib/liblbesec.so
+/system/lib/libhwui.so
+
+
+# bootanimation miui
+/system/bin/bootanimation
+
+
+# Dual Speaker Driver
+/system/bin/mediaserver
+/system/lib/hw/audio.primary.default.so
+/system/lib/hw/audio.primary.msm7x30.so
+/system/lib/hw/audio_policy.default.so
+/system/lib/hw/audio_policy.msm7x30.so
+/system/lib/liba2dp.so
+/system/lib/libaudioeq.so
+/system/lib/libaudioflinger.so
+
+
+# add sound effect enable Dual Speaker
+/system/app/AudioEffectService.apk
+
+/system/etc/audio_effects.conf
+/system/etc/permissions/com.sonyericsson.audioeffectif.xml
+
+/system/framework/semc_audioeffectif.jar
+
+/system/vendor/etc/audio_effects.conf
+
+/system/build.prop --> xloud
+
+
+# DRM
+/system/app/DrmDialogs.apk
+/system/app/DrmProvider.apk
+
+/system/bin/drmserver
+
+/system/lib/drm/libdrmtestengine.so
+/system/lib/drm/libfwdlockengine-semc.so
+/system/lib/drm/libmarlinplugin.so
+/system/lib/drm/libomasdengine.so
+/system/lib/libc.so
+/system/lib/libcutils.so
+/system/lib/libdrm1.so
+/system/lib/libdrm1_jni.so
+/system/lib/libdrmframework.so
+/system/lib/libdrmframework_jni.so
+/system/lib/libdrmtestengine.so
+/system/lib/libutils.so
+
+/system/build.prop --> DRM
+
+/system/framework/framework.jar
+
+
+# Lockscreen torch
+/system/framework/android.policy.jar/smali/com/android/internal/policy/impl/MiuiLockPatternKeyguardView$KeyguardScreenCallbackImpl.smali
+/system/framework/android.policy.jar/smali/com/android/internal/policy/impl/MiuiLockPatternKeyguardView$TorchStateObserver.smali
+/system/framework/android.policy.jar/smali/com/android/internal/policy/impl/MiuiLockPatternKeyguardView.smali
+/system/framework/android.policy.jar/smali/com/android/internal/policy/impl/MiuiLockPatternKeyguardViewProperties.smali
+/system/framework/android.policy.jar/smali/com/android/internal/policy/impl/MiuiPhoneWindowManager$1.smali
+/system/framework/android.policy.jar/smali/com/android/internal/policy/impl/MiuiPhoneWindowManager$2.smali
+/system/framework/android.policy.jar/smali/com/android/internal/policy/impl/MiuiPhoneWindowManager$3.smali
+/system/framework/android.policy.jar/smali/com/android/internal/policy/impl/MiuiPhoneWindowManager$4.smali
+/system/framework/android.policy.jar/smali/com/android/internal/policy/impl/MiuiPhoneWindowManager$5.smali
+/system/framework/android.policy.jar/smali/com/android/internal/policy/impl/MiuiPhoneWindowManager$BackLongPressRunnable$1.smali
+/system/framework/android.policy.jar/smali/com/android/internal/policy/impl/MiuiPhoneWindowManager$BackLongPressRunnable.smali
+/system/framework/android.policy.jar/smali/com/android/internal/policy/impl/MiuiPhoneWindowManager$MiuiSettingsObserver.smali
+/system/framework/android.policy.jar/smali/com/android/internal/policy/impl/MiuiPhoneWindowManager.smali
+
+/system/framework/framework.jar/smali/miui/provider/ExtraSettings$Secure.smali
+/system/framework/framework.jar/smali/miui/provider/ExtraSettings$System.smali
+/system/framework/framework.jar/smali/miui/provider/ExtraSettings.smali
+
+
+# Data enable
+/system/framework/framework.jar/smali/com/android/internal/telephony/PhoneFactory.smali
+/system/framework/framework.jar/smali/com/android/internal/telephony/RIL$1.smali
+/system/framework/framework.jar/smali/com/android/internal/telephony/RIL$RILReceiver.smali
+/system/framework/framework.jar/smali/com/android/internal/telephony/RIL$RILSender.smali
+/system/framework/framework.jar/smali/com/android/internal/telephony/RIL.smali
+/system/framework/framework.jar/smali/com/android/internal/telephony/RILConstants.smali
+/system/framework/framework.jar/smali/com/android/internal/telephony/RILRequest.smali
+/system/framework/framework.jar/smali/com/android/internal/telephony/SamsungHCRIL.smali
+/system/framework/framework.jar/smali/com/android/internal/telephony/SamsungRIL$1.smali
+/system/framework/framework.jar/smali/com/android/internal/telephony/SamsungRIL$ConnectivityHandler$ConnectivityBroadcastReceiver.smali
+/system/framework/framework.jar/smali/com/android/internal/telephony/SamsungRIL$ConnectivityHandler.smali
+/system/framework/framework.jar/smali/com/android/internal/telephony/SamsungRIL$SamsungDriverCall.smali
+/system/framework/framework.jar/smali/com/android/internal/telephony/SamsungRIL.smali
+/system/framework/framework.jar/smali/com/android/internal/telephony/SemcRIL$1.smali
+/system/framework/framework.jar/smali/com/android/internal/telephony/SemcRIL$IccHandler.smali
+/system/framework/framework.jar/smali/com/android/internal/telephony/SemcRIL.smali
+
+/system/build.prop --> RIL
+
+
+# FM Radio (Progress)
+/system/app/Radio.apk
+/system/app/FmRxService.apk
+/system/lib/libfm_stack.so
+/system/lib/libfmrx.so
+/system/framework/fmreceiverif.jar
+/system/framework/com.dsi.ant.antradio_library.jar
+/system/etc/permissions/com.ti.fm.fmreceiverif.xml
+/system/etc/permissions/com.sonyericsson.suquashi.xml
+/system/etc/permissions/com.dsi.ant.antradio_library.xml
+
+/system/framework/framework.jar --> protect headset or speaker
+/system/framework/framework-res.apk --> add corner button, animation, etc
+/system/framework/com.sonyericsson.suquashi.jar --> corner button, animation etc
